@@ -7,8 +7,15 @@
     box-shadow: 10px 10px 10px  rgb(166, 133, 226/ 10%);
     margin: 20px 0;
 }
+
 .Results h2 {
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.phonetics {
+    margin: 0;
+    padding:0;
 }

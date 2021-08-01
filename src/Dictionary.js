@@ -45,10 +45,10 @@ export default function Dictionary (props){
     return (<div className="Dictionary">
         <section>
         <form onSubmit={handleSubmit}>
-            <input type="Search" onChange={handleKeywordChange}/>
+            <input className="form-control" type="search" onChange={handleKeywordChange} placeholder="Search for a word..." autoFocus="on" autoComplete="off" />
         </form>
         <div className="hint">
-            Suggested words: wine, host, vibe, road....
+            Suggested words: music, travell, vibe, road...
         </div>
         </section>
         <Results results={results}/>
