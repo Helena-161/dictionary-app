@@ -9,7 +9,7 @@ export default function Photos(props){
                 return (
                     <div className="col-md-3 col-sm-4 px-3" key={index}>
                     <a href={photos.src.original} rel="noreferrer" target="_blank">
-                    <img src={photos.src.landscape} 
+                    <img src={photos.src.landscape} crossOrigin="anonymous"
                     className="img-fluid" alt={photos.photographer}/>
                     </a>
                     </div>
