@@ -16,6 +16,10 @@ export default function Photos(props){
                 )
             })}
                 </div>
+                <div className="pexels-link">
+                    <a href="https://www.pexels.com" title="Photos provided by Pexels.com">Photos provided by {" "}
+                        <img src="https://images.pexels.com/lib/api/pexels.png" alt="Pexels.com logo" height="30px" /></a>
+                </div>
             </section>
     }else{
         return null;
