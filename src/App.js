@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
      <h1>Dictionary</h1>
       </header>
-      <Dictionary defaultKeyword="Hello"/>
+      <Dictionary defaultKeyword="Minsk"/>
       <footer>
         Designed and built by <a href="https://www.linkedin.com/in/helena-stalbovska-b51435181/" target="_blank" title="Link to Helena's LinkedIn profile" rel="noreferrer" >Helena Stalbovska</a> and is open-sourced on <a href="https://github.com/Helena-161/dictionary-app" target="_blank" title="Link to a repository with open-sourced code" rel="noreferrer">GitHub</a>    
       </footer>  
